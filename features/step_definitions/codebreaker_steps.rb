@@ -10,6 +10,8 @@ Then(/^I should see "([^"]*)"$/) do |message|
   output.messages.should include(message)
 end
 
+
+
 class Output
   def messages
     @messages ||= []
